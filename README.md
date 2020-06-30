@@ -1,8 +1,8 @@
 [![Community Project header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Community_Project.png)](https://opensource.newrelic.com/oss-category/#community-project)
 
-# [New Relic Ansible Collection - newrelic.newrelic_agents]
+# New Relic Ansible Collection - newrelic.newrelic_agents
 
-This repo collects the Ansible roles for installing the [New Relic Java agent](https://docs.newrelic.com/docs/agents/java-agent/getting-started/introduction-new-relic-java) and the [New Relic Infrastructure agent](https://docs.newrelic.com/docs/infrastructure/new-relic-infrastructure/get-started/introduction-new-relic-infrastructure).
+This repo collects the Ansible roles for installing the [New Relic Java agent](https://docs.newrelic.com/docs/agents/java-agent/getting-started/introduction-new-relic-java) and the [New Relic Infrastructure agent](https://docs.newrelic.com/docs/infrastructure/new-relic-infrastructure/get-started/introduction-new-relic-infrastructure). Other roles may be added in the future.
 
 ## Installation
 
