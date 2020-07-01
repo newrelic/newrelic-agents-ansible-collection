@@ -47,7 +47,7 @@ tags:
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://github.com/newrelic/newrelic-ansible-collection
+repository: https://github.com/newrelic/newrelic-agents-ansible-collection
 
 # The URL to any online docs
 documentation: https://docs.newrelic.com
@@ -56,4 +56,4 @@ documentation: https://docs.newrelic.com
 homepage: https://newrelic.com
 
 # The URL to the collection issue tracker
-issues: https://github.com/newrelic/newrelic-ansible-collection/issues
+issues: https://github.com/newrelic/newrelic-agents-ansible-collection/issues
