@@ -2,7 +2,7 @@
 
 # New Relic Ansible Collection - newrelic.newrelic_agents
 
-This repo collects the Ansible roles for installing the [New Relic Java agent](https://docs.newrelic.com/docs/agents/java-agent/getting-started/introduction-new-relic-java) and the [New Relic Infrastructure agent](https://docs.newrelic.com/docs/infrastructure/new-relic-infrastructure/get-started/introduction-new-relic-infrastructure). Other roles may be added in the future.
+This repo icontains the Ansible role for installing the [New Relic Java agent](https://docs.newrelic.com/docs/agents/java-agent/getting-started/introduction-new-relic-java). Other roles will be added in the future.
 
 ## Installation
 
@@ -14,7 +14,7 @@ $ ansible-galaxy collection install newrelic.newrelic_agents
 
 ## Example usage
 
-The following examples are strictly for reference purposes, and are drawn from the individual roles' examples. See the [Infrastructure agent role repo](https://github.com/newrelic/infrastructure-agent-ansible) and the [Java agent role repo](https://github.com/newrelic/newrelic-java-agent-ansible-role) for full documentation.
+The following examples are strictly for reference purposes, and are drawn from the individual roles' examples. See the [Java agent role repo](https://github.com/newrelic/newrelic-java-agent-ansible-role) for full documentation.
 
 *Note: When using these roles from this collection, rather than directly, you must either add the `collections` keyword to your playbooks as shown below, or use the fully qualified collection name, for example `newrelic.newrelic_agents.newrelic_java_agent`.*
 
@@ -32,21 +32,6 @@ The following examples are strictly for reference purposes, and are drawn from t
   
   include_role:
     name: newrelic_java_agent
-```
-
-```yaml
----
-- hosts: infrastructure_hosts
-
-  collections: 
-    - newrelic.newrelic_agents
-  
-  roles:
-    - name: newrelic-infra
-      vars:
-        nrinfragent_config:
-          license_key: YOUR_LICENSE_KEY
-          # etc.
 ```
 
 ## Contributing
