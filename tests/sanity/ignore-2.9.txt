@@ -2,4 +2,3 @@ CONTRIBUTING.md no-smart-quotes
 cla.md no-smart-quotes
 roles/newrelic_java_agent/cla.md no-smart-quotes
 roles/newrelic_java_agent/examples/install_role.sh shellcheck:SC2148
-roles/newrelic_java_agent/molecule/jetty/INSTALL.rst rstcheck
