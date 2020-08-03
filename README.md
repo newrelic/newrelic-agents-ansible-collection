@@ -2,7 +2,7 @@
 
 # New Relic Ansible Collection - newrelic.newrelic_agents
 
-This repo icontains the Ansible role for installing the [New Relic Java agent](https://docs.newrelic.com/docs/agents/java-agent/getting-started/introduction-new-relic-java). Other roles will be added in the future.
+This repo contains the Ansible role for installing the [New Relic Java agent](https://docs.newrelic.com/docs/agents/java-agent/getting-started/introduction-new-relic-java). Other roles will be added in the future.
 
 ## Installation
 
